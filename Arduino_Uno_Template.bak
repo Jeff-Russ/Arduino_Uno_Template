@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+LIBS:Arduino_Uno_Template-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 2
+Title "Arduino UNO R3 Template"
+Date "2018-08-02"
+Rev "0"
+Comp "Jeff Russ"
+Comment1 "Template for Arduino Uno based projects"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 13950 650  1400 3800
+U 55DD0855
+F0 "Arduino_Uno_R3" 59
+F1 "Arduino_Uno_R3.sch" 59
+F2 "D0(RX)" I R 15350 4300 59 
+F3 "D1(TX)" O R 15350 4100 59 
+F4 "D2(INT0)" B R 15350 3900 59 
+F5 "~~D3(INT1)" B R 15350 3700 59 
+F6 "D4(XCK/T0)" B R 15350 3500 59 
+F7 "~~D5(T1)" B R 15350 3300 59 
+F8 "~~D6(AIN0)" B R 15350 3100 59 
+F9 "D7(AIN1)" B R 15350 2900 59 
+F10 "D8(ICP)" B R 15350 2600 59 
+F11 "D9(OC1A)" B R 15350 2400 59 
+F12 "~~D10(SS/OC1B)" B R 15350 2200 59 
+F13 "~~D11(MOSI/OC2)" B R 15350 2000 59 
+F14 "D12(MISO)" B R 15350 1800 59 
+F15 "D13(SCK)" B R 15350 1600 59 
+F16 "GND(D)" B R 15350 1400 59 
+F17 "AREF" B R 15350 1200 59 
+F18 "SDA(A4)" B R 15350 1000 59 
+F19 "SCL(A5)" B R 15350 800 59 
+F20 "IOREF" B L 13950 1800 59 
+F21 "~RESET" B L 13950 2000 59 
+F22 "3.3V" B L 13950 2200 59 
+F23 "5V" B L 13950 2400 59 
+F24 "GND(P1)" B L 13950 2600 59 
+F25 "GND(P2)" B L 13950 2800 59 
+F26 "Vin" B L 13950 3000 59 
+F27 "A0" B L 13950 3300 59 
+F28 "A1" B L 13950 3500 59 
+F29 "A2" B L 13950 3700 59 
+F30 "A3" B L 13950 3900 59 
+F31 "A4(SDA)" B L 13950 4100 59 
+F32 "A5(SCL)" B L 13950 4300 59 
+$EndSheet
+Text Label 15400 3900 0    60   ~ 0
+D2
+Text Label 15400 3700 0    60   ~ 0
+~~D3
+Text Label 15400 3500 0    60   ~ 0
+D4
+Text Label 15400 3300 0    60   ~ 0
+~~D5
+Text Label 15400 3100 0    60   ~ 0
+~~D6
+Text Label 15400 2900 0    60   ~ 0
+D7
+Text Label 15400 4300 0    60   ~ 0
+D0(RX)
+Text Label 15400 4100 0    60   ~ 0
+D1(TX)
+Wire Wire Line
+	15350 4300 15400 4300
+Text Label 15400 2600 0    60   ~ 0
+D8
+Text Label 15400 2400 0    60   ~ 0
+D9
+Text Label 15400 2200 0    60   ~ 0
+~~D10
+Text Label 15400 2000 0    60   ~ 0
+~~D11(MOSI)
+Text Label 15400 1800 0    60   ~ 0
+D12(MISO)
+Text Label 15400 1600 0    60   ~ 0
+D13(SCK)
+Text Label 15400 1200 0    60   ~ 0
+AREF
+Text Label 15400 1000 0    60   ~ 0
+SDA(A4)
+Text Label 15400 800  0    60   ~ 0
+SCL(A5)
+Wire Wire Line
+	15350 4100 15400 4100
+Wire Wire Line
+	15350 3900 15400 3900
+Wire Wire Line
+	15350 3700 15400 3700
+Wire Wire Line
+	15350 3500 15400 3500
+Wire Wire Line
+	15350 3300 15400 3300
+Wire Wire Line
+	15350 3100 15400 3100
+Wire Wire Line
+	15350 2900 15400 2900
+Wire Wire Line
+	15350 2600 15400 2600
+Wire Wire Line
+	15350 2400 15400 2400
+Wire Wire Line
+	15350 2200 15400 2200
+Wire Wire Line
+	15350 2000 15400 2000
+Wire Wire Line
+	15350 1800 15400 1800
+Wire Wire Line
+	15350 1600 15400 1600
+Wire Wire Line
+	15350 1400 15400 1400
+Wire Wire Line
+	15350 1200 15400 1200
+Wire Wire Line
+	15350 1000 15400 1000
+Wire Wire Line
+	15350 800  15400 800 
+Text Label 15400 1400 0    60   ~ 0
+GND(D)
+Text Label 13900 3300 2    60   ~ 0
+A0
+Text Label 13900 3500 2    60   ~ 0
+A1
+Text Label 13900 3700 2    60   ~ 0
+A2
+Text Label 13900 3900 2    60   ~ 0
+A3
+Text Label 13900 4100 2    60   ~ 0
+A4(SDA)
+Text Label 13900 4300 2    60   ~ 0
+A5(SCL)
+Wire Wire Line
+	13900 4300 13950 4300
+Wire Wire Line
+	13900 4100 13950 4100
+Wire Wire Line
+	13900 3900 13950 3900
+Wire Wire Line
+	13900 3700 13950 3700
+Wire Wire Line
+	13900 3500 13950 3500
+Wire Wire Line
+	13900 3300 13950 3300
+Text Label 13900 2000 2    60   ~ 0
+~RESET
+Text Label 13900 2200 2    60   ~ 0
+3.3V
+Text Label 13900 2400 2    60   ~ 0
+5V
+Text Label 13900 2600 2    60   ~ 0
+GND(P1)
+Text Label 13900 2800 2    60   ~ 0
+GND(P2)
+Text Label 13900 3000 2    60   ~ 0
+Vin
+Wire Wire Line
+	13900 3000 13950 3000
+Wire Wire Line
+	13900 2800 13950 2800
+Wire Wire Line
+	13900 2600 13950 2600
+Wire Wire Line
+	13900 2400 13950 2400
+Wire Wire Line
+	13900 2200 13950 2200
+Wire Wire Line
+	13900 2000 13950 2000
+Text Label 13900 1800 2    60   ~ 0
+IOREF
+Wire Wire Line
+	13900 1800 13950 1800
+$EndSCHEMATC
